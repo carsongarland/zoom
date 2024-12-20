@@ -13,6 +13,6 @@ do
 	    
 	    # Upload the file to google drive
 	    echo "Attempting to upload $f"	
-	    sudo /root/.google-drive-upload/bin/gupload $f -r 1qi0MwhSu4WyTQKusnOAcVuRhGFNhCTqP -C $2 && rm -f $f
+	    sudo /root/.google-drive-upload/bin/gupload $f -r -C $2 && rm -f $f
 	fi
 done
