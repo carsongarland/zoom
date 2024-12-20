@@ -4,7 +4,6 @@ from csv import reader, writer
 from sys import argv
 from ipaddress import ip_address, ip_network
 
-columbia_nets = ['160.39.40.128/25', '160.39.41.0/24', '160.39.61.0/24', '160.39.62.0/24', '160.39.63.0/25', '160.39.63.128/26', '160.39.2.0/24']
 non_columbia_ips = []
 columbia_ips = []
 
